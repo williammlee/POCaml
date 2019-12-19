@@ -1,0 +1,11 @@
+#require "oUnit";;
+#require "yojson";;
+#require "graphics";;
+#require "camlimages.png";;
+#require "camlimages.graphics";;
+#require "sdl";;
+#require "sdl.sdlmixer";;
+#directory "_build";;
+#load "template.cmo";;
+#load "action.cmo";;
+#load "status.cmo";;

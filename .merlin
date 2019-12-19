@@ -1,0 +1,8 @@
+B _build
+PKG oUnit
+PKG yojson
+PKG graphics
+PKG camlimages.png
+PKG camlimages.graphics
+PKG sdl
+PKG sdl.sdlmixer

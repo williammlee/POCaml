@@ -1,0 +1,218 @@
+{
+  "pokemon": [
+    {
+      "pname": "Rattata",
+      "ptype": "Normal",
+      "moves": [
+        "Tackle",
+        "Headbutt",
+        "Scratch",
+        "Takedown"
+      ],
+      "stats": {
+        "hp": 80,
+        "atk": 10,
+        "def": 10
+      }
+    },
+    {
+      "pname": "Charmander",
+      "ptype": "Fire",
+      "moves": [
+        "Tackle",
+        "Scratch",
+        "Flamethrower",
+        "Ember"
+      ],
+      "stats": {
+        "hp": 85,
+        "atk": 20,
+        "def": 30
+      }
+    },
+    {
+      "pname": "Bulbasaur",
+      "ptype": "Grass",
+      "moves": [
+        "Tackle",
+        "Razor Leaf",
+        "Headbutt",
+        "Vine Whip"
+      ],
+      "stats": {
+        "hp": 90,
+        "atk": 15,
+        "def": 35
+      }
+    }
+  ],
+  "moves": [
+    {
+      "mname": "Tackle",
+      "mtype": "Normal",
+      "pp": 25,
+      "power": 10,
+      "acc": 1.0
+    },
+    {
+      "mname": "Headbutt",
+      "mtype": "Normal",
+      "pp": 20,
+      "power": 40,
+      "acc": 0.8
+    },
+    {
+      "mname": "Takedown",
+      "mtype": "Normal",
+      "pp": 10,
+      "power": 50,
+      "acc": 0.7
+    },
+    {
+      "mname": "Scratch",
+      "mtype": "Normal",
+      "pp": 30,
+      "power": 15,
+      "acc": 0.9
+    },
+    {
+      "mname": "Flamethrower",
+      "mtype": "Fire",
+      "pp": 15,
+      "power": 20,
+      "acc": 0.7
+    },
+    {
+      "mname": "Ember",
+      "mtype": "Fire",
+      "pp": 20,
+      "power": 20,
+      "acc": 0.7
+    },
+    {
+      "mname": "Razor Leaf",
+      "mtype": "Grass",
+      "pp": 15,
+      "power": 20,
+      "acc": 0.9
+    },
+    {
+      "mname": "Vine Whip",
+      "mtype": "Grass",
+      "pp": 15,
+      "power": 20,
+      "acc": 0.9
+    }
+  ],
+  "items": {
+    "healing": [
+      {
+        "hname": "Potion",
+        "heal_amount": 20,
+        "revive": false,
+        "drop_chance": 0.3
+      },
+      {
+        "hname": "Super Potion",
+        "heal_amount": 50,
+        "revive": false,
+        "drop_chance": 0.15
+      },
+      {
+        "hname": "Ultra Potion",
+        "heal_amount": 100,
+        "revive": false,
+        "drop_chance": 0.05
+      },
+      {
+        "hname": "Revive",
+        "heal_amount": 10,
+        "revive": true,
+        "drop_chance": 0.3
+      },
+      {
+        "hname": "Super Revive",
+        "heal_amount": 25,
+        "revive": true,
+        "drop_chance": 0.15
+      },
+      {
+        "hname": "Ultra Revive",
+        "heal_amount": 50,
+        "revive": true,
+        "drop_chance": 0.05
+      }
+    ],
+    "pokeball": [
+      {
+        "pbname": "Pokeball",
+        "catch_rate": 0.25,
+        "drop_chance": 0.5
+      },
+      {
+        "pbname": "Great Ball",
+        "catch_rate": 0.5,
+        "drop_chance": 0.25
+      },
+      {
+        "pbname": "Ultra Ball",
+        "catch_rate": 0.75,
+        "drop_chance": 0.15
+      },
+      {
+        "pbname": "Master Ball",
+        "catch_rate": 1.0,
+        "drop_chance": 0.05
+      }
+    ]
+  },
+  "starter_pokemon": [
+    "Charmander"
+  ],
+  "init_inventory": {
+    "init_healing": [
+      {
+        "i_hname": "Potion",
+        "hquantity": 3
+      },
+      {
+        "i_hname": "Super Potion",
+        "hquantity": 2
+      },
+      {
+        "i_hname": "Ultra Potion",
+        "hquantity": 1
+      },
+      {
+        "i_hname": "Revive",
+        "hquantity": 1
+      },
+      {
+        "i_hname": "Super Revive",
+        "hquantity": 1
+      },
+      {
+        "i_hname": "Ultra Revive",
+        "hquantity": 2
+      }
+    ],
+    "init_pokeball": [
+      {
+        "i_pbname": "Pokeball",
+        "pbquantity": 3
+      },
+      {
+        "i_pbname": "Great Ball",
+        "pbquantity": 3
+      },
+      {
+        "i_pbname": "Ultra Ball",
+        "pbquantity": 1
+      },
+      {
+        "i_pbname": "Master Ball",
+        "pbquantity": 2
+      }
+    ]
+  }
+}
